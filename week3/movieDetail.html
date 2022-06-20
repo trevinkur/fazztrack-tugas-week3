@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/movieDetail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-desktop navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Tickitz.svg" alt="logo-tickitz" >
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bold" href="#">List movie</a>
+              </li>
+            </ul>
+          </div>
+          <a href="#">
+            <img src="./img/search.svg" alt="logo">
+          </a>
+          <a href="#">
+            <img class="ms-5" src="./img/profile-pitcure-sm.png" alt="profile pitcure">
+          </a>
+        </div>
+      </nav>
+
+      <nav class="navbar nav-phone navbar-expand-lg bg-white p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Tickitz.svg" alt="logo-tickitz" >
+          </a>
+          <div class="hamburger-button d-flex flex-column align-items-end" id="navbarNav">
+            <div class="line mb-1">
+            </div>
+            <div class="line-2 mb-1">
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="row my-5">
+            <div class="col-lg-4 movie-container-detail">
+                <div class="container movie-container border border-gray p-4">
+                    <img class="mx-auto d-block" src="./img/spiderman-detail.png" alt="movie">
+                </div>
+            </div>
+            <div class="col-lg movie-container-desc m-3">
+                <div class="row">
+                    <div class="container movie-title d-flex flex-column p-2">
+                        <h4 class="font-d-l bold">Spider-Man: Homecoming</h4>
+                        <p class="font-m">Adventure, action, Sci-fi</p>
+                    </div>
+                </div>
+                <div class="row my-4 border-bottom border-gray my-3">
+                    <div class="col">
+                        <div class="container d-flex flex-column mb-3">
+                            <p class="font-xs">Release Date</p>
+                            <p class="font-d-xs bold">June 28, 2017 </p>
+                        </div>
+                        <div class="container d-flex flex-column mb-3">
+                            <p class="font-xs">Durataion</p>
+                            <p class="font-d-xs bold">2 hours 13 minutes </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container d-flex flex-column mb-3">
+                            <p class="font-xs">Directed By</p>
+                            <p class="font-d-xs bold">Tom Holland </p>
+                        </div>
+                        <div class="container d-flex flex-column mb-3">
+                            <p class="font-xs">Cast</p>
+                            <p class="font-d-xs bold">Tom Holland, Michael Keaton, Robert Downey Jr., ... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container p-4">
+                        <h3 font-d-s>Synopsis</h3>
+                        <p class="font-s">Thrilled by his experience with the Avengers, 
+                            Peter returns home, where he lives with his Aunt May, 
+                            under the watchful eye of his new mentor Tony Stark, 
+                            Peter tries to fall back into his normal daily routine - 
+                            distracted by thoughts of proving himself to be more than 
+                            just your friendly neighborhood Spider-Man - but when the 
+                            Vulture emerges as a new villain, everything that Peter holds most important will be threatened. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-lightgray p-4">
+        <div class="row text-center mb-1 mt-5">
+            <h4 class="font-d-m bold">Showtimes and Ticket</h4>
+        </div>
+        <div class="row justify-content-center mb-2 p-5">
+            <div class="col-md-2">
+                <div class="dropdown d-grid gap-2 mb-3">
+                    <a class="btn btn-dropdown dropdown-toggle p-3" href="#" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     <img class="me-3" src="./img/calendar.svg" alt="calendar"> Set a date
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown d-grid gap-2">
+                    <a class="btn btn-dropdown dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="me-3" src="./img/location.svg" alt="location"> Set a city
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo  text-center">
+                            <img src="./img/logo-edu.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo  text-center">
+                            <img src="./img/logo-cine-one.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo  text-center">
+                            <img src="./img/logo-hiflix.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo  text-center">
+                            <img src="./img/logo-edu.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo  text-center">
+                            <img src="./img/logo-cine-one.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card m-3 ">
+                    <div class="row card-title py-4 px-4 border-bottom align-items-center">
+                        <div class="col logo text-center">
+                            <img src="./img/logo-hiflix.svg" alt="logo">
+                        </div>
+                        <div class="col">
+                            <h3>ebv.id</h3>
+                            <p class="font-xs">Whatever street No.12, South Purwokerto</p>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="container-fluid d-flex flex-wrap align-items-center mb-2 px-4">
+                            <p class="font-xs me-3 mb-3 ">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                            <p class="font-xs me-3 mb-3">08:30AM</p>
+                        </div>
+                    </div>
+                    <div class="row price mb-4 px-4 justify-content-between">
+                        <div class="col-3">
+                            <p class="font-s">Price</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="font-d-xs bold">$10.00/seat</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 px-5">
+                        <button class="btn btn-primary shadow p-3">Book Now</button>
+                    </div>
+                </div>
+      
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row mt-5 mx-5 p-5 justify-content-center">
+          <div class="col-lg-3 logo me-5">
+            <div class="container d-flex flex-column ">
+              <img class="mb-4" src="./img/logo-tickitz2.svg" alt="logo-tickitz">
+              <p class="font-s">Stop waiting in line. Buy tickets</p>
+              <p class="font-s">conveniently, watch movies queitly</p>
+            </div>
+          </div>
+          <div class="col-lg-2 explore me-5">
+            
+            <div class="container d-flex flex-column my-3">
+              <a class="bold mb-3" href="#">Explore</a>
+              <a href="#">Home</a>
+              <a href="#">List Movie</a>
+            </div>
+          </div>
+          <div class="col-lg-2 our-sponsor me-5 my-3">
+            <div class="container d-flex flex-column">
+              <a class="bold mb-3" href="#">Our Sponsor</a>
+              <img class="mb-3" src="./img/logo-edu.svg" width="120px" height="45px" alt="movie">
+              <img class="mb-3" src="./img/logo-cine-one.svg" width="170px" height="26px"alt="movie">
+              <img class="mb-3" src="./img/logo-hiflix.svg" width="80px" height="25px" alt="movie">
+            </div>
+          </div>
+          <div class="col-lg-2 follow-us me-5 mt-3">
+            <div class="container d-flex flex-column">
+              <a class="bold mb-3" href="#">Follow Us</a>
+              <div class="social-medial mb-2">
+                <img class="pe-2" src="./img/facebook.svg" alt="facebook">
+                <a class="font-s" href="#">tickitz cinema.id</a>
+              </div>
+              <div class="social-medial mb-2">
+                <img src="./img/instagram.svg"  alt="">
+                <a class="font-s" href="#">tickitz.id</a>
+              </div>
+              <div class="social-medial mb-2">
+                <img src="./img/twitter.svg" alt="">
+                <a class="font-s" href="#">tickitz.id</a>
+              </div>
+              <div class="social-medial mb-2">
+                <img src="./img/youtube.svg" alt="">
+                <a class="font-s" href="#">tickitz cinema.id</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <p class="font-s">2020 tickitz. All right preserved</p>
+        </div>
+      </footer>
+</body>
+</html>
